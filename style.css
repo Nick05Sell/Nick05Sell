@@ -1,0 +1,125 @@
+    /*Fuentes*/
+
+    @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Literata');
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+    /*Variables*/
+    --light:#e6e6e6;
+    --accent:#e9e4e1;
+    --bonus-accent:#f1e9d6;
+    --dark:#555555;
+    --replace-dark:#3b3b3b;
+
+}
+
+body {
+    background: var(--light);
+}
+
+/*NavBar*/
+
+ul{
+    padding: 0px;
+}
+
+.listContainer ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin: 20px;
+    text-align: center;
+}
+
+a:hover{
+    color:var(--replace-dark);
+}
+
+
+a{
+    color: var(--dark);
+}
+
+/*Info*/
+
+.infoContainer{
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    font-family:'Gloock' ;
+    font-size: 50px;
+    color: var(--replace-dark);
+}
+
+
+.infoContainer p{
+    max-width: 800px;
+    margin: 0px auto;
+    color: var(--dark);
+}
+
+.fraseContainer{
+    margin: 15px;
+}
+
+/*Trabajos y proyectos*/
+
+h3{
+    font-family:'Gloock' ;
+    letter-spacing: 2px;
+}
+
+.expContainer{
+    text-align: center;
+    margin: 20px;
+}
+
+.proyectosContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyecto{
+    min-width: 250px;
+    min-height: 350px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+
+/*Conocimientos*/
+
+p b {
+    font-family:'Gloock';
+    letter-spacing: 2px;
+}
+
+.conocimientos{
+    text-align: center;
+}
+
+.conocimientosContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.conocimiento{
+    margin: 5px;
+    min-width: 250px;
+}
+
+/*Contacto*/
+
+.contactoContainer{
+    text-align: center;
+    margin: 20px;
+}

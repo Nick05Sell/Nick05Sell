@@ -6,18 +6,18 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    color: var(--clean);
     
     /*Variables*/
-    --light:#e6e6e6;
-    --accent:#e9e4e1;
-    --bonus-accent:#f1e9d6;
-    --dark:#555555;
-    --replace-dark:#3b3b3b;
+    --fresh:#4abdac;
+    --sunshine:#f7b733;
+    --clean:#dfdce3;
+    --vermillion:#fc4a1a;
 
 }
 
 body {
-    background: var(--light);
+    background: var(--fresh);
 }
 
 /*NavBar*/
@@ -36,13 +36,12 @@ li{
     text-align: center;
 }
 
-a:hover{
-    color:var(--replace-dark);
+a{
+    color: var(--clean);
 }
 
-
-a{
-    color: var(--dark);
+a:hover{
+    color:var(--sunshine);
 }
 
 /*Info*/
@@ -55,25 +54,30 @@ a{
 h1 {
     font-family:'Gloock' ;
     font-size: 50px;
-    color: var(--replace-dark);
+    color: var(--vermillion);
 }
 
 
 .infoContainer p{
     max-width: 800px;
     margin: 0px auto;
-    color: var(--dark);
+    color: var(--clean);
 }
 
 .fraseContainer{
     margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: var(--sunshine);
 }
 
 /*Trabajos y proyectos*/
 
 h3{
-    font-family:'Gloock' ;
+    font-family:'Gloock';
     letter-spacing: 2px;
+    color: var(--clean);
 }
 
 .expContainer{
@@ -94,12 +98,30 @@ h3{
     border: 1px solid black;
 }
 
+.proyecto p b {
+    color: var(--clean);
+}
+
+.proyecto p{
+    color: var(--clean);
+}
+
+.proyecto a {
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #f7b733;
+}
+
 
 /*Conocimientos*/
 
 p b {
     font-family:'Gloock';
     letter-spacing: 2px;
+    color: var(--clean);
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--vermillion);
 }
 
 .conocimientos{

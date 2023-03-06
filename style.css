@@ -16,6 +16,10 @@
 
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body {
     background: var(--fresh);
 }
@@ -38,11 +42,14 @@ li{
 
 a{
     color: var(--clean);
+    transition: all 2 linear;
+
 }
 
 a:hover{
-    color:var(--sunshine);
+    color:var(--vermillion);
 }
+
 
 /*Info*/
 
@@ -95,7 +102,7 @@ h3{
     min-width: 250px;
     min-height: 350px;
     margin: 20px;
-    border: 1px solid black;
+    border: 1px solid var(--clean);
 }
 
 .proyecto p b {
@@ -112,6 +119,9 @@ h3{
     background-color: #f7b733;
 }
 
+a:focus-visible{
+    border: none;
+}
 
 /*Conocimientos*/
 
